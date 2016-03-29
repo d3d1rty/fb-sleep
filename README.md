@@ -9,7 +9,7 @@ The original blog post can be found [here](http://www.automatingosint.com/blog/2
 ##Usage
 Follow the first half of Justin's post, collecting the timestamps for the posts using JavaScript. Instead of pasting the timestamps into the script directly, make a new text file named `timestamps.txt`, paste the timestamps into the text file, and save it to the same directory in which the script resides. An example file has been provided with this repo. The file you create cannot have any blank lines!
 
-Read the code to understand how it works; I've documented each block in case you have trouble, but its fairly straitforward.
+Read the code to understand how it works; I've documented each block in case you have trouble, but its fairly straight-forward.
 
 Run the script using `ruby fb-sleep.rb` and it will output the hours and number of posts per hour to a CSV file named `fb-sleep.csv`.
 
