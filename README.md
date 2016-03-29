@@ -4,7 +4,7 @@ This script is a Ruby implementation for one of Justin Seitz's blog posts.
 The original blog post can be found [here](http://www.automatingosint.com/blog/2016/03/osint-facebook-when-people-sleep/).
 
 ##What it Does
-`fb-sleep.rb` will aggregate the number of posts per hour based on information collected from a FB user's page. This data can then be analyzed to determine a user's average sleep times.
+`fb-sleep.rb` will aggregate the number of posts per hour based on information collected from a FB user's page. This data can then be analyzed to determine a user's typical sleep times.
 
 ##Usage
 Follow the first half of Justin's post, collecting the timestamps for the posts using JavaScript. Instead of pasting the timestamps into the script directly, make a new text file named `timestamps.txt`, paste the timestamps into the text file, and save it to the same directory in which the script resides. An example file has been provided with this repo. The file you create cannot have any blank lines!
